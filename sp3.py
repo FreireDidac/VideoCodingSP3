@@ -48,6 +48,7 @@ class SP3:
 				video2 = input("enter codec of the 2 video (vp8_1.webm/vp9_1.webm/av1_1.mkv(very slow generation)/h265_1.mkv)\n").strip()
 				s.video_comparison(video1,video2)
 				print("the video is now on your folder as comparison.webm")
+				print("Since we are converting all the diferent videos that might have different extensions in them into a packaged video, we are losing the possible diferences we could find in them. If we had two different files and we opened them at the same time, that is why we cant see very clear differences between any of the videos we generate here.")
 				#loop = False
 			elif option.strip() == "3":
 				ip = input("please enter the UDP ip (just the last part (XXX.XXX , for example 2.23) you want to broadcast to, enter to use the default one: ")
